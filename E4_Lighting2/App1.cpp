@@ -20,7 +20,7 @@ void App1::init(HINSTANCE hinstance, HWND hwnd, int screenWidth, int screenHeigh
 	
 	// Configure point light.
 	light = new Light();
-	light->setAmbientColour(1.0f, 0.0f, 1.0f, 1.0f);
+	light->setAmbientColour(1.0f, 1.0f, 1.0f, 1.0f);
 	light->setDiffuseColour(1.0f, 1.0f, 1.0f, 1.0f);
 	light->setPosition(50.0f, 10.0f, 50.0f);
 	light->setSpecularColour(2.0f, 2.0f, 1.0f, 1.0f);
